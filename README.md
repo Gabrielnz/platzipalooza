@@ -1,0 +1,1 @@
+Proyecto para el curso de Frontend con Foundation, de Platzi.
