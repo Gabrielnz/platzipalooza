@@ -89,6 +89,10 @@ h1, h2, h3, h4, h5, h6, button {
   margin-bottom: 1em;
 }
 
-#lineup-container .column:nth-child(odd) figcaption {
+#lineup-container .tabs-panel .card {
+  border: 0;
+}
+
+#lineup-container .column:nth-child(odd) h4 {
   text-align: right;
 }
