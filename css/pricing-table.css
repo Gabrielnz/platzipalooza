@@ -1,12 +1,12 @@
+/*Tabla de precios*/
 
 .pricing-table {
   background-color: #fefefe;
   border: solid 1px #cacaca;
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
   list-style-type: none;
 }
-
 .pricing-table li {
   border-bottom: dotted 1px #cacaca;
   padding: 0.875rem 1.125rem;
@@ -37,3 +37,4 @@
   margin-bottom: 0;
 }
 
+/*Tabla de precios*/
