@@ -15,7 +15,7 @@
     
     <!-- Social -->
     
-    <section id="social-container">
+    <section id="social-container" data-magellan-target="social-container">
       <div class="row align-center text-center">
         <div class="column small-1">
           <a href="#" target="_blank">
@@ -50,17 +50,18 @@
       <div class="data-sticky" data-sticky data-top-anchor="scrollSticky" data-options="marginTop:0;" data-sticky-on="small">
         <nav id="menu-container" data-magellan>
           <ul class="menu dropdown align-spaced" data-dropdown-menu>
-            <li><a href="#tickets-container">Tickets</a></li>
+            <li><a href="#social-container">Inicio</a></li>
             <li>
               <a href="#lineup-container">Lineup</a>
               <ul class="menu" id="submenu-container">
-                <li><a href="#">Viernes</a></li>
-                <li><a href="#">Sábado</a></li>
-                <li><a href="#">Domingo</a></li>
+                <li><a data-toggle-dia="panelViernes" href="#lineup-container" onclick="navTo(this)">Viernes</a></li>
+                <li><a data-toggle-dia="panelSabado" href="#lineup-container" onclick="navTo(this)">Sábado</a></li>
+                <li><a data-toggle-dia="panelDomingo" href="#lineup-container" onclick="navTo(this)">Domingo</a></li>
               </ul>
             </li>
-            <li><a href="#info-container">Info</a></li>
+            <li><a href="#tickets-container">Tickets</a></li>
             <li><a href="#suscribete-container">Suscríbete</a></li>
+            <li><a href="#info-container">Info</a></li>
           </ul>
         </nav>
       </div>
