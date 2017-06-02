@@ -314,13 +314,16 @@
     <section id="suscribete-container">
       <h3 class="text-center">Suscríbete</h3>
       <h4 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h4>
-      <form action="" method="">
+      <form action="" method="" novalidate data-abide>
+        <div class="row columns small-12 medium-6 text-center error-container" style="display: none;" data-abide-error>
+          <p><i class="fi-alert"></i> Ingrese un correo válido</p>
+        </div>
         <div class="row columns small-12 medium-6">
           <div class="input-group">
             <span class="input-group-label"><i class="fi-mail"></i></span>
-            <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com">
+            <input id="emailInput" type="email" name="email" class="input-group-field" placeholder="tu@correo.com" required>
             <div class="input-group-button">
-              <input type="submit" name="" class="button" value="Suscribirse!">
+              <input type="submit" class="button" value="Suscribirse!">
             </div>
           </div>
         </div>
